@@ -1,0 +1,50 @@
+body{
+    background-image: url("/images/diary.png");
+    padding: 5%;
+    height: 85rem;
+}
+h1{
+    font-size: 4rem;
+    color:black
+
+}
+
+input{
+    width:100%;
+}
+textarea.notebook {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 100%;
+    padding: 5px 0px;
+    
+    resize: vertical;
+    font-size:2rem;
+    line-height: 3rem;
+    border-bottom: 2px solid;
+    -webkit-appearance: none;
+    border-radius: 0;
+    height: 40rem;
+    width:30rem;
+    margin-left: 10px;
+    margin-top: 10px;
+   padding:3%;
+}
+.btn2{
+    margin-top:10px;
+    margin-left:10px;
+}
+.btn3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title{
+    padding:10px;
+    width:20%
+}

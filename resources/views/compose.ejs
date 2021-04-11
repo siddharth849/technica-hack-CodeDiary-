@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Journal</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/diary.css">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand">DAILY JOURNAL</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li id="home"><a href="/">HOME</a></li>
+          <li id="about"><a href="/register">SIGNUP</a></li>
+          <li id="contact"><a href="/login">LOGIN</a></li>
+          <li id="contact"><a href="/tools">TOOLS</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <body>
+    <div class="container">
+        <form action="/compose" method="POST">
+            <div>
+                <h1> Pendown Everything you did today.</h1>
+           </div>
+           <div class="title">
+               <h1>Title</h1>
+               <input type="text" name="title" />
+           </div>
+           <div>
+               <textarea class="notebook" name="content" id="" cols="30" rows="10"></textarea>
+           </div>
+               <a href="" style="padding: 5%;"><button type="submit" class="btn btn-primary btn2">submit</button></a>
+        </form>
+
+    </div>
+
+    <div class="footer-padding"></div>
+      <div class="footer">
+        <p>Made with ❤️ by HackeeClue</p>
+      </div>
+    </div>
+    </body>
+    </html>
+    

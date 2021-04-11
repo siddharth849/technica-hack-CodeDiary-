@@ -1,0 +1,24 @@
+<%- include('./layout/header'); -%>
+<div class="loginbox">
+
+
+
+    <img src="/images/mast-logo.png" class="avatar">
+    <h1>Login Here</h1>
+    <form action="/login" method="POST">
+        <% if(messages.error){ %>
+            <span style="color: red; font-size: medium;"><%= messages.error%></span>
+            <% } %>
+        <p>Username</p>
+        <input type="text" name="name" placeholder="Enter Username"/>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter Password"/>
+      <button style="align-items: center;"type="submit">Submit</button>
+    </form>
+
+
+
+
+</div>
+
+<%- include('./layout/footer'); -%>
